@@ -26,7 +26,7 @@
 
 .cta-button {
   display: inline-block;
-  padding: 7px 20px;
+  padding: 15px 20px;
   background-color: #003366; 
   color: white;
   text-decoration: none;
@@ -37,3 +37,56 @@
   vertical-align: middle;
   line-height: normal;
   }
+  /* @media screen and  ( min-width) and (max-width:1199px){
+    .hero-content h1 {
+    Flex:1 1 calc(50% - 24px);
+    }
+    }
+    @media screen and (min-width:1200px){
+    .hero-content {
+    Flex:1 1 calc(25% - 50px);
+    }
+    }
+     */
+     @media (max-width: 768px) {
+      .hero-content {
+        padding: 20px;
+        row-gap: 15px; 
+      }
+      .hero-content h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+      .hero-content p {
+        font-size: 20px;
+        text-align: center;
+      }
+      .hero-content a {
+        font-size: 18px;
+        text-align: center;
+      }
+      .cta-button {
+        padding: 12px 15px;
+        font-size: 18px;
+      }
+    }
+    
+
+     @media (max-width: 480px) {
+      .hero-content {
+        row-gap: 10px; 
+      }
+      .hero-content h1 {
+        font-size: 28px;
+      }
+      .hero-content p {
+        font-size: 18px;
+      }
+      .hero-content a {
+        font-size: 16px;
+      }
+      .cta-button {
+        padding: 10px 12px;
+        font-size: 16px;
+      }
+    }
